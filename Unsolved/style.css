@@ -1,0 +1,59 @@
+body {
+    margin:0;
+    padding:0;
+}
+.wrapper {
+    width: 80vw;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+}
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 1;
+    padding: 4rem 0;
+}
+h1:hover {
+    text-shadow: 5px -5px 0 gold;
+}
+h4 {
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+}
+h3 {
+    font-family: 'Raleway', sans-serif;
+    line-height:3;
+    font-size: 20px;
+}
+p {
+    font-family: 'Raleway', sans-serif;
+    line-height:1.5;
+    text-align: justify;
+    font-size: 16px;
+}
+p::first-letter {
+    font-size:25px;
+}
+.left-lines, .right-lines {
+    position: relative;
+    top: -18px;
+    color: gold;
+    animation: blink 2s linear 0s infinite;
+}
+@keyframes blink {
+    0% {
+        opacity: 0;
+        font-size: 12px;
+    }
+    50% {
+        opacity: 1;
+        font-size: 20px;
+    }
+    100% {
+        opacity: 0;
+        font-size: 12px;
+    }
+}
